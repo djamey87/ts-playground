@@ -23,8 +23,5 @@ export const specRange = (numbers:Array<number>, min: number, max:number): Array
     }
   }
 
-  console.log(out);
   return out;
-}
-
-specRange([ 1.5, 6, 12.1, 13, 19.75, 12.1, 19.7, 6, 7.45, 1.5 ], 6.0, 12.0);
+};
